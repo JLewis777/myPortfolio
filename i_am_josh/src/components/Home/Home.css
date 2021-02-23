@@ -33,7 +33,7 @@
   }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (min-height: 568px) {
   .hero {
     min-height: 40vh;
   }
