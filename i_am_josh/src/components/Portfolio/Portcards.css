@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+.all-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  margin-bottom: 0;
+  padding: 20px;
+  font-family: "Oxygen", serif;
+}
+
+.desc {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.tstack {
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  padding-right: 0px;
+  padding: 20px;
+  border-right: 2px solid black;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 90px;
+  margin-right: 15px;
+  margin-left: 0px;
+  margin-bottom: 15px;
+  padding-left: 0px;
+  padding: 20px;
+  /* width: 300px;
+  height: 50px;
+  margin: 20px auto;
+  font-family: "Oxygen", serif;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s ease background-color; */
+  /* border-left: 1px solid black; */
+}
+
+.innerbtn {
+  font-family: "Oxygen", serif;
+  font-weight: bold;
+  width: 300px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease background-color;
+}
+
+.innerbtn:hover {
+  background-color: lightcyan;
+}
+
+.images {
+  width: 900px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+/* ul {
+  list-style-position: inside;
+} */
+
+.card {
+  /* border: 3px solid black; */
+  border-radius: 5px;
+  /* box-shadow: 2px 2px 2px 2px black; */
+  width: 1000px;
+  min-height: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: grey;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+
+  .images {
+    width: 100%;
+  }
+
+  .innerbtn {
+    width: 100%;
+  }
+}

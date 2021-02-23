@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+.about-me {
+  text-align: center;
+  font-weight: bold;
+}
+
+.section1 {
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  margin-right: 0px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  padding-right: 0px;
+  padding: 20px;
+  border-right: 1px solid black;
+}
+
+.right {
+  width: 50%;
+  margin-right: 15px;
+  margin-left: 0px;
+  margin-bottom: 15px;
+  padding-left: 0px;
+  padding: 20px;
+  border-left: 1px solid black;
+}
+
+.about-text {
+  text-align: center;
+  padding-bottom: 10px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.border {
+  max-width: 1150px;
+  margin: 0 auto;
+  min-height: 500px;
+  /* border: 1px solid black;
+  border-radius: 5px;
+  border-style: double; */
+  padding: 20px;
+  font-family: "Oxygen", serif;
+  background-image: linear-gradient(to right, #614385, #516395);
+}
+
+@media (max-width: 767px) {
+  .border {
+    margin: 0;
+  }
+
+  .section1 {
+    display: block;
+  }
+
+  .left {
+    border: none;
+    margin: 0 auto;
+  }
+
+  .right {
+    border: none;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .border {
+    max-width: 100%;
+  }
+}

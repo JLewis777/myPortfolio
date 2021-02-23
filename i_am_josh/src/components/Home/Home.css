@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap");
+
+.hero-text {
+  text-align: left;
+  font-weight: bold;
+  font-size: 120px;
+  font-family: "Oxygen", serif;
+  margin-left: 70px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-top: 50px;
+  color: white;
+}
+
+.hero {
+  background-image: url("./Coding\ 8_-054.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 72vh;
+  }
+
+  .hero-text {
+    font-size: 60px;
+    text-align: left;
+    margin-left: 60px;
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero {
+    min-height: 150vh;
+  }
+
+  .hero-text {
+    font-size: 170px;
+    padding-top: 180px;
+    padding-left: 100px;
+  }
+}
+
+/* @media (max-width: 1024px) {
+  .hero {
+    min-height: 93.7vh;
+  }
+
+  .hero-text {
+    font-size: 70px;
+    margin-left: 60px;
+    padding-top: 40px;
+  }
+} */

@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap");
+
+/* I want to make a hamburger nav that doesn't have a background color */
+nav {
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s ease color;
+}
+
+nav a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.navItem {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  font-family: "Oxygen", serif;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  nav {
+    width: 100%;
+  }
+}

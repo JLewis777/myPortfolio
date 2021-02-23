@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap");
+
+footer {
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  background-color: grey;
+  color: black;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.topText {
+  margin-top: 0;
+  padding: 20px;
+  font-family: "Oxygen", serif;
+}
+
+span {
+  transition: 0.3s ease background-color;
+}
+
+.fa-linkedin,
+.fa-twitter,
+.fa-github {
+  color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.fa-linkedin:hover,
+.fa-twitter:hover,
+.fa-github:hover {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (max-width: 767px) {
+  footer {
+    width: 100%;
+  }
+}

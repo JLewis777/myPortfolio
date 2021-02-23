@@ -1,0 +1,89 @@
+[
+  {
+    "image": "images/R2Hgateway.png",
+    "title": "R2H Gateway Website",
+    "description": "During my entry point into Road to Hire, I was assigned a gateway assignment which was to build a website about a place I want to visit one day. The site showcases some of the popular tourist attractions, cuisine, and history of Osaka, Japan. For the design, I drew inspiration from many tourist sites and formed a wireframe that not only showed my technical foundation but also my character which is what I strive to do in every project. This one I can say is one of my crown achievements.",
+    "stack": ["HTML", "CSS"],
+    "link": "https://github.com/JLewis777/R2H-Gateway-Japan/tree/main"
+  },
+
+  {
+    "image": "images/eguitars.png",
+    "title": "Ericzander Guitars",
+    "description": "My first fictional ecommerce website where I sell high end musical eqiupment. I built this during my time in Road to Hire. Featuring 3 pages (Home, Products, Contact), I utilized my knowledge in HTML and CSS for the first iteration of the site and then later implemented a React.js overhaul. This is one of my favorite projects. I got a chance to really tap into my imagination and combine my love for music and technology and I plan to continue making improvments and adding new features.",
+    "stack": ["HTML", "CSS", "JavaScript", "React.js"],
+    "link": "https://ecommerce-v2.herokuapp.com/"
+  },
+
+  {
+    "image": "images/burger.png",
+    "title": "Burger Builder",
+    "description": "This was a react project built with React.js, it's a simple burger building app with a modal pop up function.",
+    "stack": ["JavaScript", "CSS", "HTML", "React.js", "Node.js"],
+    "link": "https://github.com/JLewis777/Burger-Builder/tree/main/burger-app"
+  },
+
+  {
+    "image": "images/Tic-tac.png",
+    "title": "Tic-Ta-Toe",
+    "description": "A simple Tic-Tac-Toe game utilizing DOM manipulation and React.js. This was built during a code-along during my time in Road to Hire.",
+    "stack": ["JavaScript", "CSS", "HTML", "React.js"],
+    "link": "https://github.com/JLewis777/Tic-Tac-Toe"
+  },
+
+  {
+    "image": "images/pokemon.png",
+    "title": "Pokemon Inquierer",
+    "description": "A simple, fun, Node-based, Pokemon game that uses asyncronus JavaScript promises to simulate the nostalgic and addicting gameplay of the turn-based battle game.",
+    "stack": ["JavaScript", "Node.js"],
+    "link": "https://github.com/JLewis777/Pokemon-Inquierer"
+  },
+
+  {
+    "image": "images/tutorus.png",
+    "title": "Tutor US Hackathon",
+    "description": "During my time in Road to Hire, I collaborated with a team of 5 cohort members to build a fictional, online tutoring website where you can enter in information and have a personalized confirmation message displayed utilizing both a custom and external API while also using RESTful routes.",
+    "stack": ["JavaScript", "Node.js"],
+    "link": "https://github.com/JLewis777/TutorUS"
+  },
+
+  {
+    "image": "images/reservation.png",
+    "title": "Restaurant Reservation App",
+    "description": "A sleek, fictional resturant reservation program that was built during a code-along in Road to hire.",
+    "stack": ["HTML", "CSS"],
+    "link": "https://github.com/JLewis777/reservePage"
+  },
+
+  {
+    "image": "images/githubcard.png",
+    "title": "Github-card",
+    "description": "An app that utilizes a custom JS API and React to retrieve the username of a specified Github user and social media handle.",
+    "stack": ["HTML", "CSS", "React.js", "Node.js", "MySQL"],
+    "link": "https://github.com/JLewis777/github-finder"
+  },
+
+  {
+    "image": "images/hamnavv.png",
+    "title": "Hamburger nav",
+    "description": "A showcase of a certain navbar design and functionality on a static one-page program.",
+    "stack": ["HTML", "CSS"],
+    "link": "https://github.com/JLewis777/Hamburger-nav"
+  },
+
+  {
+    "image": "images/safehaven.png",
+    "title": "Code for Justice Hackathion",
+    "description": "During my time in Road to Hire, I collaborated with a team of 5 other cohort members. Our goal was to create a fictional, non-profit organization website that addressed the issue of human trafficking. I was in charge of creating the resources page and functionality of the hyperlinks attached. This was also an original concept that I brought to the team.",
+    "stack": ["HTML", "CSS"],
+    "link": "https://github.com/Jacklara/SafeHaven"
+  },
+
+  {
+    "image": "images/To-do.png",
+    "title": "To-Do-App",
+    "description": "A simple To-do list program that takes in information and displays it to the screen. a fresh list can be populated upon refreshing the site.",
+    "stack": ["HTML", "CSS", "React.js", "MySQL", "Node.js"],
+    "link": "https://github.com/JLewis777/Todo-api"
+  }
+]

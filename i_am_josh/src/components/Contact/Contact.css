@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap");
+
+.con-text {
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.whole {
+  background-image: linear-gradient(to right, #c33764, #1d2671);
+  background-size: cover;
+  min-height: 1000px;
+  padding-top: 150px;
+}
+
+.contactbox {
+  font-family: "Oxygen", serif;
+  text-align: center;
+  border-radius: 5px;
+  background-color: grey;
+  padding: 10px;
+  margin: 0 auto;
+  width: 1000px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* The float property allows me to posistion this element a certain way (left, right, none) */
+.column1 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+/* The clear property specifies which sides of an element floating items are allowed to float (left, right, both) */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="tel"] {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+  display: block;
+  margin: 0 auto;
+}
+
+.btn2 {
+  width: 300px;
+  height: 50px;
+  margin: 20px auto;
+  font-family: "Oxygen", serif;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s ease background-color;
+}
+
+.btn2:hover {
+  background-color: lightskyblue;
+}
+
+@media (max-width: 768px) {
+  .whole {
+    width: 100%;
+  }
+
+  .contactbox {
+    width: 100%;
+    padding: 0;
+  }
+
+  .column1 {
+    padding-top: 10px;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .column2 img {
+    display: none;
+  }
+
+  .row {
+    float: none;
+    text-align: center;
+  }
+
+  .btn2 {
+    width: 100%;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .contactbox {
+    width: 700px;
+  }
+
+  .row {
+    float: none;
+  }
+
+  .column1 {
+    float: none;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+
+  .column2 img {
+    display: none;
+  }
+} */
+
+/* #status {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 10px;
+}
+
+#status.success {
+  color: lightgreen;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+} */
