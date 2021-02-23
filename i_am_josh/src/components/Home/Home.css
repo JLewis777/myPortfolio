@@ -23,7 +23,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 72vh;
-    overflow-y: scroll;
   }
 
   .hero-text {
@@ -31,6 +30,12 @@
     text-align: left;
     margin-left: 20px;
     padding-top: 30px;
+  }
+}
+
+@media (min-width: 320px) {
+  .hero {
+    min-height: 40vh;
   }
 }
 
