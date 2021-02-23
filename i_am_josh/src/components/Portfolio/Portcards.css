@@ -101,4 +101,18 @@
   .innerbtn {
     width: 100%;
   }
+
+  .section2 {
+    display: block;
+  }
+
+  .tstack {
+    border: none;
+    margin: 0 auto;
+  }
+
+  .btn {
+    width: 90px;
+    margin: 0 auto;
+  }
 }
