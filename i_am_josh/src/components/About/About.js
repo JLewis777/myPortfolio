@@ -16,12 +16,12 @@ const about = () => (
         it is one of my passions. Another passion of mine is technology and
         coding. I love technology. I am always amazed at what you can do and
         achieve with technology which in turn fuels my fascination and thirst
-        for knowledge. I don't like to define myself by the work i've done but
-        rather what I plan to do. Skills and expertise can be taught. But my
-        character is inherent, and I try to make it a point to keep learning and
-        challenge myself to be the best that I can be no matter what I decide to
-        do. I pursue many different interests, hobbies, learning courses and
-        other artistic endeavors. I am a fast learner, able to pick up new
+        for knowledge. I don't define myself by the work I've done but rather
+        what I plan to do. Skills and expertise can be taught but, my character
+        is inherent and I try to make it a point to keep learning and
+        challenging myself to be the best that I can be no matter what I decide
+        to do. I pursue many different interests, hobbies, learning courses and
+        other artistic endeavors. I am a fast learner and able to pick up new
         skills and multitask different projects and roles. My Motto is "Forward
         Momentum". This means to always keep moving forward and to leave
         whatever I touch better than I found it and keep heading towards the

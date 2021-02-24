@@ -25,7 +25,7 @@
 
   {
     "image": "images/Tic-tac.png",
-    "title": "Tic-Ta-Toe",
+    "title": "Tic-Tac-Toe",
     "description": "A simple Tic-Tac-Toe game utilizing DOM manipulation and React.js. This was built during a code-along during my time in Road to Hire.",
     "stack": ["JavaScript", "CSS", "HTML", "React.js"],
     "link": "https://github.com/JLewis777/Tic-Tac-Toe"
@@ -33,7 +33,7 @@
 
   {
     "image": "images/pokemon.png",
-    "title": "Pokemon Inquierer",
+    "title": "Pokemon Inquirer",
     "description": "A simple, fun, Node-based, Pokemon game that uses asyncronus JavaScript promises to simulate the nostalgic and addicting gameplay of the turn-based battle game.",
     "stack": ["JavaScript", "Node.js"],
     "link": "https://github.com/JLewis777/Pokemon-Inquierer"
@@ -65,7 +65,7 @@
 
   {
     "image": "images/hamnavv.png",
-    "title": "Hamburger nav",
+    "title": "Hamburger Navbar",
     "description": "A showcase of a certain navbar design and functionality on a static one-page program.",
     "stack": ["HTML", "CSS"],
     "link": "https://github.com/JLewis777/Hamburger-nav"
