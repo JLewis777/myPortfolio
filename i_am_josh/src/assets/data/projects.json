@@ -84,6 +84,6 @@
     "title": "To-Do-App",
     "description": "A simple To-do list program that takes in information and displays it to the screen. a fresh list can be populated upon refreshing the site.",
     "stack": ["HTML", "CSS", "React.js", "MySQL", "Node.js"],
-    "link": "https://github.com/JLewis777/Todo-api"
+    "link": "https://to-do-r2h.herokuapp.com/"
   }
 ]
